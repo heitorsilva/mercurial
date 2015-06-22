@@ -1,0 +1,26 @@
+changeset = '\033[6mchangeset: \033[2m[{phase}] \033[4m{rev}:{node|short}{branches}{bookmarks}{tags}\n\033[6mauthor:    {author}\ndate:      {date|rfc822date} ({date|age})\nsummary:   {desc|firstline|strip}\n\n{file_mods}{file_adds}{file_dels}\n\n'
+
+changeset_verbose = '\033[6mchangeset: \033[2m[{phase}] \033[4m{rev}:{node|short}{branches}{bookmarks}{tags}\n\033[6mauthor:    {author}\ndate:      {date|rfc822date} ({date|age})\n\n{desc}\n\n{file_mods}{file_adds}{file_dels}\n\n'
+
+start_file_adds = ''
+file_add = '\033[3mA {file_add}\n'
+end_file_adds = ''
+
+start_file_dels = ''
+file_del = '\033[4mR {file_del}\n'
+end_file_dels = ''
+
+start_file_mods = ''
+file_mod = '\033[2mM {file_mod}\n'
+end_file_mods = ''
+
+start_branches = ' '
+branch = '\033[3m{branch}'
+
+start_bookmarks = ' '
+bookmark = '[{bookmark}] '
+last_bookmark = '[{bookmark}]'
+
+start_tags = ' '
+tag = '\033[7m{tag}, '
+last_tag = '\033[7m{tag}'
