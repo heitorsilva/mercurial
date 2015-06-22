@@ -1,0 +1,14 @@
+changeset = '\033[4m{rev}{branches} \033[6m{desc|firstline|strip}{bookmarks}{tags}\n\n'
+
+changeset_verbose = '\033[2m[{phase}] \033[4m{rev}:{node|short}{branches} \033[6m{desc|firstline|strip}{bookmarks}{tags}\n\033[7m({date|age} by {author|person})\n\n'
+
+start_branches = ' '
+branch = '\033[3m{branch}'
+
+start_bookmarks = ' '
+bookmark = '[{bookmark}] '
+last_bookmark = '[{bookmark}]'
+
+start_tags = ' '
+tag = '\033[8m{tag}, '
+last_tag = '\033[8m{tag}'
