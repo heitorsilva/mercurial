@@ -1,0 +1,24 @@
+[ui]
+editor = notepad
+merge = winmerge
+
+[extensions]
+extdiff =
+color =
+mq =
+shelve =
+graphlog =
+
+[color]
+mode = win32
+
+[extdiff]
+cmd.winmerge = C:\Program Files (x86)\WinMerge\WinMergeU.exe
+opts.winmerge = /r /e /x /u /wl
+
+[alias]
+dlog = log --style=C:\\Users\\heitor.silva\\Documents\\map-cmdline.dlog
+nlog = log --style=C:\\Users\\heitor.silva\\Documents\\map-cmdline.nlog
+slog = log --style=C:\\Users\\heitor.silva\\Documents\\map-cmdline.slog
+sglog = glog --style=C:\\Users\\heitor.silva\\Documents\\map-cmdline.sglog
+dglog = glog --style=C:\\Users\\heitor.silva\\Documents\\map-cmdline.dglog
