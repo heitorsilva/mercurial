@@ -1,0 +1,16 @@
+changeset = '\033[4m{rev}{branches} \033[6m{desc|firstline|strip} \033[7m(on {date|shortdate} by {author|person})\033[6m{bookmarks}{tags}\n'
+
+changeset_quiet = '\033[4m{rev} \033[6m{desc|firstline|strip}\n'
+
+changeset_verbose = '\033[2m[{phase}] \033[4m{rev}:{node|short}{branches} \033[6m{desc|firstline|strip} \033[7m(on {date|isodate} by {author|person})\033[6m{bookmarks}{tags}\n'
+
+start_branches = ' '
+branch = '\033[3m{branch}'
+
+start_bookmarks = ' '
+bookmark = '[{bookmark}] '
+last_bookmark = '[{bookmark}]'
+
+start_tags = ' '
+tag = '\033[8m{tag}, '
+last_tag = '\033[8m{tag}'
